@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="lbTituloEntrada">Seja Bem-Vindo a Agenda</string>
+    <string name="lbSubtitulo">Selecione uma das opções</string>
+    <string name="btnCadastrar">Cadastrar Contato</string>
+    <string name="btnVisualizar">Visualizar Contatos</string>
+    <string name="lbTituloCadastro">Cadastro de Contato</string>
+    <string name="lbTituloVisualizacao">Visualização de Contatos</string>
+    <string name="btnVoltar">Voltar</string>
+</resources>

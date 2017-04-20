@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:id="@+id/lbTituloVisualizacao"
+        style="@style/TituloVisualizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbTituloVisualizacao" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        app:srcCompat="@drawable/user" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:text="@string/btnVoltar"
+        android:layout_marginLeft="10sp"/>
+
+</LinearLayout>

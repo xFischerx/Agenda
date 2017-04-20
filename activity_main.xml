@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agenda.MainActivity"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60sp" />
+
+    <TextView
+        android:id="@+id/lbTituloEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbTituloEntrada"
+        style="@style/Titulo"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="153dp"
+        app:srcCompat="@drawable/notebook"
+        android:layout_gravity="center"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+
+    <TextView
+        android:id="@+id/lbSubtitulo"
+        style="@style/Subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbSubtitulo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCadastrar"
+            android:layout_marginLeft="10sp"/>
+
+        <Space
+            android:layout_width="13dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnVisualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnVisualizar"/>
+    </LinearLayout>
+
+</LinearLayout>
